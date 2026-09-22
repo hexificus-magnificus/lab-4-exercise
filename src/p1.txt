@@ -1,0 +1,7 @@
+output:
+15342 -974726926
+124163 -974726926
+
+the difference in timing is due to the fact that the row-major pattern is recognized by the compiler
+while the column-major pattern is not. The compiler then optimizes the row-major loops but not the
+column-major loops.

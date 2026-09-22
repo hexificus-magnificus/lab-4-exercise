@@ -1,0 +1,7 @@
+output:
+230258
+23112
+
+the speed difference is because the morton layout preserves the 3-dimensional
+data locality. This means that the CPU is able to cache much more relevant data
+and drastically reduce the rate of expensive cache misses.
